@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Crowd Detection</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Crowd Detection Analyzer</h1>
+
+    <input type="file" id="videoInput" accept="video/*" />
+    <button onclick="uploadVideo()">Analyze</button>
+
+    <video id="preview" controls style="display:none;"></video>
+    
+    <div id="logContainer">
+      <h3>Analysis Log</h3>
+      <pre id="output">No output yet...</pre>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
