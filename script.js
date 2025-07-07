@@ -1,4 +1,4 @@
-const API_URL = "https://crowd-detection-api-mcwl.onrender.com/analyze"; // replace with your real URL
+const API_URL = "https://5417-34-148-220-200.ngrok-free.app/analyze"; // replace with your real URL
 
 function uploadVideo() {
   const fileInput = document.getElementById("videoInput");
